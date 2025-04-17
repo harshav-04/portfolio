@@ -862,3 +862,19 @@
         gap: 15px;
     }
 }
+
+@media (max-width: 768px) {
+    .typing-heading {
+        background: none;
+        color: #6b39a3;
+        /* Your custom purple */
+        -webkit-text-fill-color: unset;
+    }
+
+    .tech-stack-icons {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
